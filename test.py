@@ -15,7 +15,7 @@ for i in session.get_inputs():
 
 
 m = time.time()
-g = cv2.imread("coba.jpg")
+g = cv2.imread("images/coba.jpg")
 
 d  = g.copy()
 d = prep(d)
